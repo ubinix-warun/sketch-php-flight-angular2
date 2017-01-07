@@ -2,6 +2,8 @@
 
 require 'vendor/autoload.php';
 
+header('Access-Control-Allow-Origin: *');
+
 Flight::route('/', function(){
 
          $numbers[0] = "one";
